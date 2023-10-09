@@ -27,7 +27,7 @@ const SearchEmployee = () => {
                             <input onChange={inputHandler} type="text" className="form-control" name="empid" value={inputField.empid} />
                         </div>
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <button onChange={readValue} className="btn btn-warning">Search</button>
+                            <button onClick={readValue} className="btn btn-warning">Search</button>
                         </div>
                     </div>
                 </div>
