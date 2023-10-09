@@ -5,6 +5,7 @@ import AddEmployee from './Components/AddEmployee';
 import ViewEmployee from './Components/ViewEmployee';
 import SearchEmployee from './Components/SearchEmployee';
 import DeleteEmployee from './Components/DeleteEmployee';
+import Login from './Components/Login';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div>
      <BrowserRouter>
      <Routes>
+      <Route path="/" exact element={<Login/>} />
       <Route path="/adde" exact element={<AddEmployee/>} />
       <Route path="/viewe" exact element={<ViewEmployee/>} />
       <Route path="/searche" exact element={<SearchEmployee/>}/>
