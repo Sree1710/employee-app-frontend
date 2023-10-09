@@ -1,11 +1,11 @@
 
 import './App.css';
-import AddEmployee from './Components/AddEmployee';
+import ViewEmployee from './Components/ViewEmployee';
 
 function App() {
   return (
     <div>
-      <AddEmployee/>
+      <ViewEmployee/>
     </div>
   );
 }
